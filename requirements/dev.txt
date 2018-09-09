@@ -77,7 +77,7 @@ singledispatch==3.4.0.3   # via tornado
 six==1.10.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, traitlets, zest.releaser, zope.testrunner
 snowballstemmer==1.2.1    # via sphinx
 sphinx-argparse==0.2.2
-sphinx-intl==0.9.9
+sphinx-intl==0.9.11
 sphinx==1.7.9
 sphinxcontrib-websupport==1.0.1  # via sphinx
 terminado==0.6            # via notebook

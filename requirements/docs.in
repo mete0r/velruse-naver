@@ -2,4 +2,4 @@ alabaster >= 0.7.11
 repoze.sphinx.autointerface
 sphinx >= 1.7.9
 sphinx-argparse >= 0.2.2
-sphinx-intl
+sphinx-intl >= 0.9.11

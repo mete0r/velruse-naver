@@ -23,7 +23,7 @@ requests==2.18.4          # via sphinx
 six==1.11.0               # via packaging, sphinx, sphinx-intl
 snowballstemmer==1.2.1    # via sphinx
 sphinx-argparse==0.2.2
-sphinx-intl==0.9.10
+sphinx-intl==0.9.11
 sphinx==1.7.9
 sphinxcontrib-websupport==1.0.1  # via sphinx
 typing==3.6.2             # via sphinx
