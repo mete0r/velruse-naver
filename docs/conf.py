@@ -13,7 +13,6 @@
 # serve to show the default.
 import os.path
 import sys
-from textwrap import dedent
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -251,8 +250,8 @@ latex_elements = {
     # Latex figure (float) alignment
     # 'figure_align': 'htbp',
 }
-if language == 'ko':
-    latex_elements['babel'] = r'\usepackage[nil]{babel}'
+latex_elements['babel'] = r'\usepackage[nil]{babel}'
+if os.environ['LANG'].startswith('ko'):
     latex_elements['preamble'] += '\n' + r'\usepackage{kotex}'
 
 # Grouping the document tree into LaTeX files. List of tuples
