@@ -29,6 +29,7 @@ html5lib==1.0.1           # via bleach
 humanfriendly==4.16.1     # via coloredlogs
 idna==2.6                 # via requests
 imagesize==1.1.0          # via sphinx
+ipaddress==1.0.22         # via notebook
 ipykernel==4.9.0          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
 ipython==5.8.0            # via ipykernel, ipywidgets, jupyter-console
@@ -45,7 +46,7 @@ mistune==0.8.3            # via nbconvert
 monotonic==1.5            # via humanfriendly
 nbconvert==5.4.0          # via jupyter, notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
-notebook==5.0.0           # via jupyter, widgetsnbextension
+notebook==5.6.0           # via jupyter, widgetsnbextension
 packaging==17.1           # via sphinx
 pandocfilters==1.4.2      # via nbconvert
 pathlib2==2.3.0           # via ipython, pickleshare
@@ -54,6 +55,7 @@ pickleshare==0.7.4        # via ipython
 pip-tools==2.0.2
 pkginfo==1.4.1            # via twine
 pluggy==0.5.1             # via tox
+prometheus-client==0.3.1  # via notebook
 prompt-toolkit==1.0.15    # via ipython, jupyter-console
 ptyprocess==0.5.2         # via pexpect, terminado
 py==1.4.34                # via tox
@@ -65,7 +67,7 @@ pyroma==2.4
 pyside==1.2.4
 python-dateutil==2.6.1    # via jupyter-client
 pytz==2017.2              # via babel
-pyzmq==16.0.2             # via jupyter-client
+pyzmq==17.1.2             # via jupyter-client, notebook
 qtconsole==4.3.1
 readme-renderer==17.2     # via restview
 repoze.sphinx.autointerface==0.8
@@ -73,6 +75,7 @@ requests-toolbelt==0.8.0  # via twine
 requests==2.18.4          # via requests-toolbelt, sphinx, twine
 restview==2.7.0
 scandir==1.5              # via pathlib2
+send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
 singledispatch==3.4.0.3   # via tornado
 six==1.10.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, traitlets, zest.releaser, zope.testrunner
@@ -81,7 +84,7 @@ sphinx-argparse==0.2.2
 sphinx-intl==0.9.11
 sphinx==1.7.9
 sphinxcontrib-websupport==1.0.1  # via sphinx
-terminado==0.6            # via notebook
+terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 tornado==4.5.2            # via ipykernel, jupyter-client, notebook, terminado
 tox==2.7.0
