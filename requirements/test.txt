@@ -7,4 +7,4 @@
 six==1.10.0               # via zope.testrunner
 zope.exceptions==4.2.0    # via zope.testrunner
 zope.interface==4.5.0     # via zope.exceptions, zope.testrunner
-zope.testrunner==4.6.0
+zope.testrunner==4.8.1
