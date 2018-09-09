@@ -12,7 +12,7 @@ backports.shutil-get-terminal-size==1.0.0  # via ipython
 bleach==2.0.0             # via nbconvert, readme-renderer
 certifi==2017.7.27.1      # via requests, tornado
 chardet==3.0.4            # via requests
-check-manifest==0.35
+check-manifest==0.37
 click==6.7                # via pip-tools, sphinx-intl
 colorama==0.3.9           # via zest.releaser
 coloredlogs==7.3

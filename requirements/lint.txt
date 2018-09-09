@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements/lint.txt requirements/lint.in
 #
-check-manifest==0.35
+check-manifest==0.37
 configparser==3.5.0       # via flake8
 docutils==0.14            # via pyroma
 enum34==1.1.6             # via flake8
