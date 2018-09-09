@@ -18,6 +18,7 @@ colorama==0.3.9           # via zest.releaser
 coloredlogs==10.0
 configparser==3.5.0       # via entrypoints, flake8
 decorator==4.3.0          # via ipython, traitlets
+defusedxml==0.5.0         # via nbconvert
 docutils==0.14            # via pyroma, readme-renderer, restview, sphinx
 entrypoints==0.2.3        # via nbconvert
 enum34==1.1.6             # via flake8, traitlets
@@ -42,7 +43,7 @@ markupsafe==1.0           # via jinja2
 mccabe==0.6.1             # via flake8
 mistune==0.8.3            # via nbconvert
 monotonic==1.5            # via humanfriendly
-nbconvert==5.2.1          # via jupyter, notebook
+nbconvert==5.4.0          # via jupyter, notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
 notebook==5.0.0           # via jupyter, widgetsnbextension
 packaging==17.1           # via sphinx
