@@ -15,7 +15,7 @@ chardet==3.0.4            # via requests
 check-manifest==0.37
 click==6.7                # via pip-tools, sphinx-intl
 colorama==0.3.9           # via zest.releaser
-coloredlogs==7.3
+coloredlogs==10.0
 configparser==3.5.0       # via entrypoints, flake8
 decorator==4.1.2          # via ipython, traitlets
 docutils==0.14            # via pyroma, readme-renderer, restview, sphinx
@@ -25,7 +25,7 @@ first==2.0.1              # via pip-tools
 flake8==3.5.0
 functools32==3.2.3.post2  # via jsonschema
 html5lib==0.999999999     # via bleach
-humanfriendly==4.4.1      # via coloredlogs
+humanfriendly==4.16.1     # via coloredlogs
 idna==2.6                 # via requests
 imagesize==0.7.1          # via sphinx
 ipykernel==4.6.1          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
