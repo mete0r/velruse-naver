@@ -41,7 +41,7 @@ jupyter==1.0.0
 markupsafe==1.0           # via jinja2
 mccabe==0.6.1             # via flake8
 mistune==0.8.3            # via nbconvert
-monotonic==1.3            # via humanfriendly
+monotonic==1.5            # via humanfriendly
 nbconvert==5.2.1          # via jupyter, notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
 notebook==5.0.0           # via jupyter, widgetsnbextension
