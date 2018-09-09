@@ -65,7 +65,7 @@ pygments==2.2.0           # via ipython, jupyter-console, nbconvert, qtconsole, 
 pyparsing==2.2.0          # via packaging
 pyroma==2.4
 pyside==1.2.4
-python-dateutil==2.6.1    # via jupyter-client
+python-dateutil==2.7.3    # via jupyter-client
 pytz==2017.2              # via babel
 pyzmq==17.1.2             # via jupyter-client, notebook
 qtconsole==4.3.1
