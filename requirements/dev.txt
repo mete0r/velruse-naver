@@ -9,7 +9,7 @@ argcomplete==1.9.4
 babel==2.6.0
 backports-abc==0.5        # via tornado
 backports.shutil-get-terminal-size==1.0.0  # via ipython
-bleach==2.0.0             # via nbconvert, readme-renderer
+bleach==2.1.4             # via nbconvert, readme-renderer
 certifi==2017.7.27.1      # via requests, tornado
 chardet==3.0.4            # via requests
 check-manifest==0.37
