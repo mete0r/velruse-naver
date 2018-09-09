@@ -101,7 +101,7 @@ urllib3==1.23             # via requests
 virtualenv==16.0.0        # via tox
 wcwidth==0.1.7            # via prompt-toolkit
 webencodings==0.5.1       # via html5lib
-wheel==0.29.0
+wheel==0.31.1
 widgetsnbextension==3.4.1  # via ipywidgets
 zc.buildout==2.9.4
 zest.releaser==6.12.4
