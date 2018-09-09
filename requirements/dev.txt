@@ -24,7 +24,7 @@ enum34==1.1.6             # via flake8, traitlets
 first==2.0.1              # via pip-tools
 flake8==3.5.0
 functools32==3.2.3.post2  # via jsonschema
-html5lib==0.999999999     # via bleach
+html5lib==1.0.1           # via bleach
 humanfriendly==4.16.1     # via coloredlogs
 idna==2.6                 # via requests
 imagesize==0.7.1          # via sphinx
