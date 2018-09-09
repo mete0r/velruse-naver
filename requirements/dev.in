@@ -1,4 +1,4 @@
-argcomplete
+argcomplete >= 1.9.4
 babel
 coloredlogs
 jupyter
