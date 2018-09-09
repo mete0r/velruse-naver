@@ -77,7 +77,7 @@ qtconsole==4.4.1
 readme-renderer==21.0     # via restview
 repoze.sphinx.autointerface==0.8
 requests-toolbelt==0.8.0  # via twine
-requests==2.19.1          # via requests-toolbelt, sphinx, twine
+requests==2.19.1          # via requests-toolbelt, sphinx, twine, zest.releaser
 restview==2.9.1
 scandir==1.9.0            # via pathlib2
 send2trash==1.5.0         # via notebook
@@ -104,7 +104,7 @@ webencodings==0.5.1       # via html5lib
 wheel==0.31.1
 widgetsnbextension==3.4.1  # via ipywidgets
 zc.buildout==2.12.2
-zest.releaser==6.12.4
+zest.releaser==6.15.2
 zope.exceptions==4.1.0    # via zope.testrunner
 zope.interface==4.4.2     # via repoze.sphinx.autointerface, zope.exceptions, zope.testrunner
 zope.testrunner==4.7.0
