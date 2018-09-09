@@ -62,7 +62,7 @@ VENV	:= . bin/activate &&
 
 
 .PHONY: all
-all: $(ALL)
+all: $(REQUIREMENTS_FILES) update-requirements
 
 .PHONY: update-requirements
 update-requirements: .pip-sync
