@@ -57,7 +57,7 @@ pkginfo==1.4.2            # via twine
 pluggy==0.7.1             # via tox
 prometheus-client==0.3.1  # via notebook
 prompt-toolkit==1.0.15    # via ipython, jupyter-console
-ptyprocess==0.5.2         # via pexpect, terminado
+ptyprocess==0.6.0         # via pexpect, terminado
 py==1.4.34                # via tox
 pycodestyle==2.3.1        # via flake8
 pyflakes==1.5.0           # via flake8
