@@ -78,7 +78,7 @@ repoze.sphinx.autointerface==0.8
 requests-toolbelt==0.8.0  # via twine
 requests==2.19.1          # via requests-toolbelt, sphinx, twine
 restview==2.9.1
-scandir==1.5              # via pathlib2
+scandir==1.9.0            # via pathlib2
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
 singledispatch==3.4.0.3   # via tornado
