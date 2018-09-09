@@ -83,7 +83,7 @@ scandir==1.9.0            # via pathlib2
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
 singledispatch==3.4.0.3   # via tornado
-six==1.11.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, traitlets, zest.releaser, zope.testrunner
+six==1.11.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, tox, traitlets, zest.releaser, zope.testrunner
 snowballstemmer==1.2.1    # via sphinx
 sphinx-argparse==0.2.2
 sphinx-intl==0.9.11
@@ -92,7 +92,7 @@ sphinxcontrib-websupport==1.1.0  # via sphinx
 terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 tornado==5.1              # via ipykernel, jupyter-client, notebook, terminado
-tox==2.7.0
+tox==3.2.1
 tqdm==4.15.0              # via twine
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
 twine==1.9.1              # via zest.releaser

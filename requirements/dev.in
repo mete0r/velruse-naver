@@ -6,7 +6,7 @@ pip-tools >= 2.0.2
 pyside
 qtconsole >= 4.3.1
 restview >= 2.9.1
-tox
+tox >= 3.2.1
 wheel
 zc.buildout
 zest.releaser
