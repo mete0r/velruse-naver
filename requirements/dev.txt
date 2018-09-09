@@ -87,7 +87,7 @@ snowballstemmer==1.2.1    # via sphinx
 sphinx-argparse==0.2.2
 sphinx-intl==0.9.11
 sphinx==1.7.9
-sphinxcontrib-websupport==1.0.1  # via sphinx
+sphinxcontrib-websupport==1.1.0  # via sphinx
 terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 tornado==4.5.2            # via ipykernel, jupyter-client, notebook, terminado
