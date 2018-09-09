@@ -31,7 +31,7 @@ imagesize==1.1.0          # via sphinx
 ipykernel==4.9.0          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
 ipython==5.8.0            # via ipykernel, ipywidgets, jupyter-console
-ipywidgets==7.0.0         # via jupyter
+ipywidgets==7.4.1         # via jupyter
 jinja2==2.9.6             # via nbconvert, notebook, sphinx
 jsonschema==2.6.0         # via nbformat
 jupyter-client==5.1.0     # via ipykernel, jupyter-console, notebook, qtconsole
@@ -93,7 +93,7 @@ virtualenv==15.1.0        # via tox
 wcwidth==0.1.7            # via prompt-toolkit
 webencodings==0.5.1       # via html5lib
 wheel==0.29.0
-widgetsnbextension==3.0.2  # via ipywidgets
+widgetsnbextension==3.4.1  # via ipywidgets
 zc.buildout==2.9.4
 zest.releaser==6.12.4
 zope.exceptions==4.1.0    # via zope.testrunner
