@@ -95,7 +95,7 @@ tornado==5.1              # via ipykernel, jupyter-client, notebook, terminado
 tox==3.2.1
 tqdm==4.25.0              # via twine
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
-twine==1.9.1              # via zest.releaser
+twine==1.11.0             # via zest.releaser
 typing==3.6.2             # via sphinx
 urllib3==1.22             # via requests
 virtualenv==15.1.0        # via tox
