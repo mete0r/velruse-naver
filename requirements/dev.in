@@ -4,7 +4,7 @@ coloredlogs >= 10.0
 jupyter
 pip-tools >= 2.0.2
 pyside
-qtconsole
+qtconsole >= 4.3.1
 restview
 tox
 wheel

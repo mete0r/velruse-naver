@@ -68,7 +68,7 @@ pyside==1.2.4
 python-dateutil==2.7.3    # via jupyter-client
 pytz==2018.5              # via babel
 pyzmq==17.1.2             # via jupyter-client, notebook
-qtconsole==4.3.1
+qtconsole==4.4.1
 readme-renderer==17.2     # via restview
 repoze.sphinx.autointerface==0.8
 requests-toolbelt==0.8.0  # via twine
