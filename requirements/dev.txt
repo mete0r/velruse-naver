@@ -103,7 +103,7 @@ wcwidth==0.1.7            # via prompt-toolkit
 webencodings==0.5.1       # via html5lib
 wheel==0.31.1
 widgetsnbextension==3.4.1  # via ipywidgets
-zc.buildout==2.9.4
+zc.buildout==2.12.2
 zest.releaser==6.12.4
 zope.exceptions==4.1.0    # via zope.testrunner
 zope.interface==4.4.2     # via repoze.sphinx.autointerface, zope.exceptions, zope.testrunner
