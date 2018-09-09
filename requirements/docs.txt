@@ -9,9 +9,7 @@ babel==2.5.1              # via sphinx, sphinx-intl
 certifi==2017.7.27.1      # via requests
 chardet==3.0.4            # via requests
 click==6.7                # via sphinx-intl
-commonmark==0.7.4         # via sphinx-argparse
 docutils==0.14            # via sphinx
-future==0.16.0            # via commonmark
 idna==2.6                 # via requests
 imagesize==0.7.1          # via sphinx
 jinja2==2.9.6             # via sphinx
@@ -24,7 +22,7 @@ repoze.sphinx.autointerface==0.8
 requests==2.18.4          # via sphinx
 six==1.11.0               # via packaging, sphinx, sphinx-intl
 snowballstemmer==1.2.1    # via sphinx
-sphinx-argparse==0.2.1
+sphinx-argparse==0.2.2
 sphinx-intl==0.9.10
 sphinx==1.7.9
 sphinxcontrib-websupport==1.0.1  # via sphinx
