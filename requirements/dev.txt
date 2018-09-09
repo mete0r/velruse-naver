@@ -82,7 +82,7 @@ scandir==1.9.0            # via pathlib2
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
 singledispatch==3.4.0.3   # via tornado
-six==1.10.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, traitlets, zest.releaser, zope.testrunner
+six==1.11.0               # via bleach, html5lib, packaging, pathlib2, pip-tools, prompt-toolkit, python-dateutil, readme-renderer, singledispatch, sphinx, sphinx-intl, traitlets, zest.releaser, zope.testrunner
 snowballstemmer==1.2.1    # via sphinx
 sphinx-argparse==0.2.2
 sphinx-intl==0.9.11
