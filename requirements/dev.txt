@@ -49,7 +49,7 @@ nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
 notebook==5.6.0           # via jupyter, widgetsnbextension
 packaging==17.1           # via sphinx
 pandocfilters==1.4.2      # via nbconvert
-pathlib2==2.3.0           # via ipython, pickleshare
+pathlib2==2.3.2           # via ipython, pickleshare
 pexpect==4.2.1            # via ipython
 pickleshare==0.7.4        # via ipython
 pip-tools==2.0.2
