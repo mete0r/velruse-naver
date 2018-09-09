@@ -23,7 +23,7 @@ docutils==0.14            # via pyroma, readme-renderer, restview, sphinx
 entrypoints==0.2.3        # via nbconvert
 enum34==1.1.6             # via flake8, traitlets
 first==2.0.1              # via pip-tools
-flake8==3.4.1
+flake8==3.5.0
 functools32==3.2.3.post2  # via jsonschema
 future==0.16.0            # via commonmark
 html5lib==0.999999999     # via bleach
