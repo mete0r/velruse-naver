@@ -31,7 +31,7 @@ future==0.16.0            # via readme-renderer
 futures==3.2.0            # via tornado
 html5lib==1.0.1           # via bleach
 humanfriendly==4.16.1     # via coloredlogs
-idna==2.6                 # via requests
+idna==2.7                 # via requests
 imagesize==1.1.0          # via sphinx
 ipaddress==1.0.22         # via notebook
 ipykernel==4.9.0          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
