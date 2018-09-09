@@ -27,7 +27,7 @@ functools32==3.2.3.post2  # via jsonschema
 html5lib==1.0.1           # via bleach
 humanfriendly==4.16.1     # via coloredlogs
 idna==2.6                 # via requests
-imagesize==0.7.1          # via sphinx
+imagesize==1.1.0          # via sphinx
 ipykernel==4.6.1          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
 ipython==5.4.1            # via ipykernel, ipywidgets, jupyter-console
