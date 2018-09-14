@@ -23,11 +23,14 @@ from functools import wraps
 import os.path
 import shutil
 
+from . import __name__ as testPackageName
+
 
 def isolated_directory(test_fn):
     @wraps(test_fn)
     def wrapper(self):
         name = self.id()
+        name = name[len(testPackageName)+1:]
         cwd = os.getcwd()
         if os.path.exists(name):
             shutil.rmtree(name)
