@@ -31,13 +31,8 @@ def isolated_directory(test_fn):
     def wrapper(self):
         name = self.id()
         name = name[len(testPackageName)+1:]
-        cwd = os.getcwd()
         if os.path.exists(name):
             shutil.rmtree(name)
         os.makedirs(name)
-        os.chdir(name)
-        try:
-            test_fn(self)
-        finally:
-            os.chdir(cwd)
+        return test_fn(self, isolated_directory=name)
     return wrapper
