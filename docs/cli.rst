@@ -1,10 +1,10 @@
 Command-line interface
 ======================
 
-METE0R-PROJECT
+velruse-naver
 --------------
 
 .. argparse::
-   :module: METE0R_PACKAGE.cli
+   :module: velruse_naver.cli
    :func: main_argparse
-   :prog: METE0R-PROJECT
+   :prog: velruse-naver

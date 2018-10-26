@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-#   METE0R-PROJECT: SOME_DESCRIPTION
+#   velruse-naver: velruse provider for NAVER OAuth2
 #   Copyright (C) 2015-2017 mete0r <mete0r@sarangbang.or.kr>
 #
 #   This program is free software: you can redistribute it and/or modify
@@ -19,20 +19,24 @@
 from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import unicode_literals
-from functools import wraps
+from unittest import TestCase
+import logging
+import io
 import os.path
-import shutil
-
-from . import __name__ as testPackageName
 
 
-def isolated_directory(test_fn):
-    @wraps(test_fn)
-    def wrapper(self):
+from .utils import isolated_directory
+
+
+class AppTest(TestCase):
+
+    @property
+    def logger(self):
         name = self.id()
-        name = name[len(testPackageName)+1:]
-        if os.path.exists(name):
-            shutil.rmtree(name)
-        os.makedirs(name)
-        return test_fn(self, isolated_directory=name)
-    return wrapper
+        return logging.getLogger(name)
+
+    @isolated_directory
+    def test_nothing(self, isolated_directory):
+        self.logger.debug('test!')
+        with io.open(os.path.join(isolated_directory, 'foo.txt'), 'wb'):
+            pass

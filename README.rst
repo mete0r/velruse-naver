@@ -1,7 +1,7 @@
-METE0R-PROJECT
+velruse-naver
 ==============
 
-SOME_DESCRIPTION
+velruse provider for NAVER OAuth2
 
 
 Production environment
