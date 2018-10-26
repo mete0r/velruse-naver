@@ -34,7 +34,7 @@ from velruse.exceptions import ThirdPartyFailure
 from velruse.settings import ProviderSettings
 from velruse.utils import flat_url
 
-__version__ = '0.0.0'
+__version__ = '0.1.0'
 
 logger = logging.getLogger(__name__)
 
