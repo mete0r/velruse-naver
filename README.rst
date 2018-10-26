@@ -1,18 +1,13 @@
 velruse-naver
-==============
+=============
 
 velruse provider for NAVER OAuth2
 
 
-Production environment
-----------------------
+Quick introduction
+------------------
 
-To setup production environment::
-
-   python bootstrap-virtualenv.py
-
-Maintenance note: you should populate virtualenv_support/ with wheels for
-production environment, i.e. packages specified in requirements.txt
+WIP
 
 
 Development environment
@@ -20,5 +15,5 @@ Development environment
 
 To setup development environment::
 
-   python setup.py virtualenv
+   virtualenv -p python2.7 .
    make

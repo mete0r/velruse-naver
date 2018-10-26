@@ -2,6 +2,7 @@ include COPYING
 include CHANGES.rst
 include Makefile
 include README.rst
+include .coveragerc
 include *.py
 include bootstrap-virtualenv.in
 include bootstrap-virtualenv.py
@@ -21,9 +22,9 @@ include requirements/test.in
 include requirements/test.txt
 include tox.ini
 include virtualenv_support/README.rst
-include velruse_naver/locale/velruse-naver.pot
-include velruse_naver/locale/*/LC_MESSAGES/*.po
-exclude velruse_naver/locale/*/LC_MESSAGES/*.mo
+include src/velruse_naver/locale/velruse-naver.pot
+include src/velruse_naver/locale/*/LC_MESSAGES/*.po
+exclude src/velruse_naver/locale/*/LC_MESSAGES/*.mo
 recursive-include docs *.bat
 recursive-include docs *.py
 recursive-include docs *.rst
@@ -36,3 +37,4 @@ recursive-include notebooks *.rst
 recursive-include notebooks *.ipynb
 prune docs/build
 prune notebooks/.ipynb_checkpoints
+prune tests

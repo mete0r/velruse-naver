@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 #   velruse-naver: velruse provider for NAVER OAuth2
-#   Copyright (C) 2015-2017 mete0r <mete0r@sarangbang.or.kr>
+#   Copyright (C) 2015-2018 mete0r <mete0r@sarangbang.or.kr>
 #
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU Affero General Public License as published by
@@ -21,6 +21,7 @@ from contextlib import contextmanager
 from distutils.command.build import build as _build
 import io
 import os.path
+import re
 
 
 def setup_dir(f):
@@ -67,8 +68,12 @@ def readfile(path):
 
 @setup_dir
 def get_version():
-    from velruse_naver import __version__
-    return __version__
+    source = readfile('src/velruse_naver/__init__.py')
+    version_match = re.search(r'^__version__ = [\'"]([^\'"]*)[\'"]',
+                              source, re.M)
+    if not version_match:
+        raise RuntimeError('Unable to find version string.')
+    return version_match.group(1)
 
 
 def alltests():
@@ -100,26 +105,18 @@ setup_info = {
     'author': 'mete0r',
     'author_email': 'mete0r@sarangbang.or.kr',
     'license': 'GNU Affero General Public License v3 or later (AGPLv3+)',
-    # 'url': 'https://github.com/mete0r/velruse-naver',
+    'url': 'https://github.com/mete0r/velruse-naver',
 
     'packages': [
         'velruse_naver',
-        'velruse_naver.recipe',
-        'velruse_naver.tests',
-        'velruse_naver.tests.fixtures',
-        'velruse_naver.tests.layers',
     ],
-    # do not use '.'; just omit to specify setup.py directory
     'package_dir': {
-        # '': 'src',
+        '': 'src',
     },
     'package_data': {
         'velruse_naver': [
             'locale/*/*/*.mo',
         ],
-        # 'velruse_naver.tests': [
-        #   'files/*',
-        # ],
     },
     'install_requires': install_requires,
     'test_suite': '__main__.alltests',
@@ -128,8 +125,7 @@ setup_info = {
         'test': tests_require,
     },
     'setup_requires': [
-        'babel',
-        'mete0r.distutils.virtualenv == 0.0.2',
+        'babel >= 2.6.0',
     ],
     'message_extractors': {
         'velruse_naver': [
@@ -138,29 +134,28 @@ setup_info = {
     },
     'entry_points': {
         'console_scripts': [
-            'velruse-naver = velruse_naver.cli:main',
         ],
         'zc.buildout': [
-            'default = velruse_naver.recipe:Recipe',
         ],
         'zc.buildout.uninstall': [
-            'default = velruse_naver.recipe:uninstall',
         ],
         'paste.app_factory': [
-            'main = velruse_naver.wsgi:app_factory',
         ],
     },
     'classifiers': [
         'Development Status :: 1 - Planning',
-        # 'Intended Audience :: Developers',
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',  # noqa
-        # 'Operating System :: OS Independent',
-        # 'Programming Language :: Python',
-        # 'Programming Language :: Python :: 2.7',
-        # 'Programming Language :: Python :: 3.4',
-        # 'Programming Language :: Python :: Implementation :: CPython',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: Implementation :: CPython',
     ],
     'keywords': [
+        'naver',
+        'oauth2',
+        'velruse',
     ],
     'zip_safe': False,
 }

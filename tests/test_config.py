@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 #   velruse-naver: velruse provider for NAVER OAuth2
-#   Copyright (C) 2015-2017 mete0r <mete0r@sarangbang.or.kr>
+#   Copyright (C) 2015-2018 mete0r <mete0r@sarangbang.or.kr>
 #
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU Affero General Public License as published by
@@ -20,23 +20,13 @@ from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import unicode_literals
 from unittest import TestCase
-import logging
-import io
-import os.path
 
 
-from .utils import isolated_directory
+class ConfiguratorTest(TestCase):
 
+    def test_add_naver_login(self):
+        from pyramid.config import Configurator
 
-class AppTest(TestCase):
-
-    @property
-    def logger(self):
-        name = self.id()
-        return logging.getLogger(name)
-
-    @isolated_directory
-    def test_nothing(self, isolated_directory):
-        self.logger.debug('test!')
-        with io.open(os.path.join(isolated_directory, 'foo.txt'), 'wb'):
-            pass
+        config = Configurator()
+        config.include('velruse_naver')
+        config.add_naver_login()
