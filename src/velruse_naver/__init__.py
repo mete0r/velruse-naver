@@ -178,12 +178,9 @@ class NaverOAuth2Provider(object):
 
         profile = result['response']
 
-        cred = {
-            'oauthAccessToken': access_token,
-        }
         return NaverAuthenticationComplete(
             profile=profile,
-            credentials=cred,
+            credentials=token_data,
             provider_name=self.name,
             provider_type=self.type
         )
