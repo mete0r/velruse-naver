@@ -107,5 +107,5 @@ notebook:
 .PHONY: test
 test: requirements/test.txt requirements/lint.txt requirements/docs.txt
 	$(VENV) coverage erase
-	$(VENV) detox -e lint,docs,py27,py34,pypy
+	$(VENV) tox -p 2 -e py38,pypy3
 	$(VENV) tox -e coverage-report

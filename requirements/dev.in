@@ -1,12 +1,9 @@
 argcomplete >= 1.9.4
 babel >= 2.6.0
 coloredlogs >= 10.0
-detox >= 0.15
 jupyter
 notebook >= 5.7.8
 pip-tools >= 3.1.0
-pyside
-qtconsole >= 4.3.1
 restview >= 2.9.1
 tox >= 3.2.1
 wheel >= 0.31.2
